@@ -16,6 +16,9 @@ public class Truck extends Application{
         int blue = randy.nextInt(0xFF);
         int green = randy.nextInt(0xFF);
 
+        gc.setFill(Color.DEEPSKYBLUE);
+        gc.fillRect(0, 0 , 700, 400);
+
         gc.setFill(Color.BLACK);
         gc.fillRect(200, 200, 300, 125);
 
@@ -29,6 +32,8 @@ public class Truck extends Application{
 
         gc.setFill(Color.RED);
         gc.fillOval(420, 300,60,60);
+
+
     }
     public static void main( String [] args)
     {
