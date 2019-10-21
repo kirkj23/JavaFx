@@ -155,7 +155,7 @@ public class Town extends Application {
                 gc.setStroke(Color.BLACK);
                 gc.strokeText("Town Hall", 630, 200);
 
-                if (x<200) {
+                if (x< 200) {
                     x += .5;
                 }
             }
